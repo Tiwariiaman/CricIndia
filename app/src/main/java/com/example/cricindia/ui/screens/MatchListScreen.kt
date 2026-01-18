@@ -50,7 +50,7 @@ fun MatchListScreen(viewModel: CricketViewModel) {
             },
             modifier = Modifier.padding(paddingValues).fillMaxSize()
         ){
-            LazyColumn(modifier = Modifier.padding(16.dp).fillMaxSize()) {
+            LazyColumn(modifier = Modifier.padding(8.dp).fillMaxSize()) {
 
                 items(
                     count = minOf(matches.itemCount, 10)
